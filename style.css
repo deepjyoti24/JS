@@ -1,0 +1,27 @@
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+}
+
+.title{
+    text-align: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+body{
+    background-color: #212121;
+    color: white;
+}
+
+.list {
+   
+}
